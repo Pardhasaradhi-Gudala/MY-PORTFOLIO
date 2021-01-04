@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+:root {
+    --primary-color: #8B5CF6;
+    --secondary-color: #DDD6FE;
+    --off-white: #F3F4F6;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1.5rem;
+    padding: 2rem 2rem;
+}
+
+.brand{
+    color: white;
+    font-size: x-large;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.nav-list{
+    list-style: none;
+    text-decoration: 
+    padding: 15px 30px 2rem 0rem;
+    text-align: right;
+    margin: 0px 20px 0rem 0px;
+    font-size: x-large
+}
+
+.navigation li{
+    display: inline;
+    word-spacing: 2rem;
+    text-align: center;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+
+.header{
+    padding: 2rem;
+}
+
+.header .header-img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.header .header-heading .heading-in{
+    color: var(--primary-color);
+}
+
+.section-one{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 30px 2rem 2rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+
+.section-two{
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+
+
+.section-three{
+    background-color: var(--secondary-color);
+    text-align: center;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+,.section-three{
+    brows
+}
+
+
+.section-four{
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+
+.footer{
+    height: 120px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 15px 20px 1rem 2rem;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    padding: 1rem 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.footer .social .social-media {
+    max-width: 35px;
+}
+
+
+.footer .footer-head{
+    font-size: x-large;
+    font-weight: bold;
+}
+.footer .link{
+    color: white
+}
+
+ul{
+    padding-inline-start: 20px;
+}
+
+.social{
+    list-style: none;;
+}
+
+.social-media{
+    align-items: center;
+}
